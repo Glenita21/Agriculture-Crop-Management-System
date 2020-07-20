@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+	<title>Insert</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    
+      <h2 style="text-align:center;color:lightblue;"><b>Insert Water</b></h2>
+    <div style="width:400px;margin:0 auto;padding-top:10%;">
+	
+	
+    
+	<form action="WaterInsert.php" method="POST">
+    <div class="form-group">
+			<label>Amount Used</label>
+			<input type="text" name="amountused" placeholder="Enter the Amount Used" class="form-control" required>
+		</div>
+    
+		
+		<div class="form-group">
+			<label>Source </label>
+			<input type="text" name="source1" placeholder="Enter the source" class="form-control" required>
+		</div>
+		<div class="form-group">
+			<label>Method</label>
+			<input type="text" name="method" placeholder="Enter the method" class="form-control" required>
+		</div>
+               <div class="form-group">
+			<label>Crop Name</label>
+			<input type="text" name="Crop_Name" placeholder="Enter the Crop Name" class="form-control" required>
+		</div>
+
+       
+		<button type="submit"  class="btn btn-info">Save</button>
+	</form>
+    </div>
+</body>
+</html>

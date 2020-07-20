@@ -1,0 +1,34 @@
+﻿<html>
+<head>
+	<title>Insert</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+     <h2 style="text-align:center;color:Brown;"><b>Insert Harvest</b></h2>
+    <div style="width:400px;margin:0 auto;padding-top:10%;">
+      
+	
+    
+	<form action="HarvestInsert.php" method="POST">
+    <div class="form-group">
+			<label>Harvest Time</label>
+			<input type="text" name="Harvest_Time" placeholder="Enter the Harvest Time" class="form-control" required>
+		</div>
+    
+		
+		<div class="form-group">
+			<label>Production</label>
+			<input type="text" name="Production" placeholder="Enter the Amount of produce" class="form-control" required>
+		</div>
+               <div class="form-group">
+			<label>Crop Name</label>
+			<input type="text" name="Crop_Name" placeholder="Enter the Crop Name" class="form-control" required>
+		</div>
+
+       
+		<button type="submit"  class="btn btn-info">Save</button>
+	</form>
+    </div>
+</body>
+</html>

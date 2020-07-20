@@ -1,0 +1,8 @@
+Create Table Employee (
+	emp_id int Primary Key AUTO_INCREMENT,
+	first_name varchar(15),
+	last_name varchar(15),
+	birth_date Date,
+	sex varchar(1),
+	salary int
+)

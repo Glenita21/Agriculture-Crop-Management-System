@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Insert</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+        <h2 style="text-align:center;color:greenyellow;"><b>Insert Field</b></h2>
+    <div style="width:400px;margin:0 auto;padding-top:10%;">
+	
+	<form action="FieldInsert.php" method="POST">
+		<div class="form-group"><!--This is bootstrap class-->
+			<label>Field ID</label>
+			<input type="text" name="FieldID" placeholder="Enter the field ID" class="form-control">
+		</div>
+           <div class="form-group"><!--This is bootstrap class-->
+			<label>Field Name</label>
+			<input type="text" name="Field_Name" placeholder="Enter the field Name" class="form-control">
+		</div>
+
+		<div class="form-group"><!--This is bootstrap class-->
+			<label>Field Area</label>
+			<input type="text" name="Field_Area" placeholder="Enter the field Area" class="form-control">
+		</div>
+		
+		<div class="form-group">
+			<label>Field Type</label>
+			<select name="Field_Type" class="form-control">
+				<option value="Cultivated">Cultivated</option>
+				<option value="barren">barren</option>
+			</select>
+		</div>
+                <div class="form-group">
+			<label>Farmer Name</label>
+			<input type="text" name="Farmer_Name" placeholder="Enter the Farmer Name" class="form-control" required>
+		</div>
+                
+		<button type="submit" name="save" class="btn btn-info">Save</button>
+	</form>
+</body>
+</html>
